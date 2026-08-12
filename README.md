@@ -1,4 +1,4 @@
-### HTML JavaScript | JavaScript const
+### HTML JavaScript | JavaScript const não pode ser reatribuído
 
 <a href="https://github.com/user-attachments/assets/62212116-e8b9-4f0b-b316-ae2d14274e7f">
   <img width="100%" alt="html-javascript" src="https://github.com/user-attachments/assets/62212116-e8b9-4f0b-b316-ae2d14274e7f"/>
