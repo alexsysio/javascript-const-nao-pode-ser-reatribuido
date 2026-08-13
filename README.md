@@ -1,5 +1,5 @@
 ### Uma variável definida com a palavra-chave const não pode ser reatribuída: 
-### A palavra-chave foi introduzida no ES6 (2015) const
+### A palavra-chave const foi introduzida no ES6 (2015) 
 ### Variáveis definidas com const não podem ser redeclaradas 
 ### Variáveis definidas com const não podem ser reatribuídas 
 ### Variáveis definidas com const têm Escopo de Bloco 
