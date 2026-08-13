@@ -3,7 +3,6 @@
 ### Variáveis definidas com const não podem ser redeclaradas 
 ### Variáveis definidas com const não podem ser reatribuídas 
 ### Variáveis definidas com const têm Escopo de Bloco 
-### const protege a referência (o endereço de memória da variável), mas não o conteúdo do objeto/array.
 ### const PI = 3.141592653589793;
 ### PI = 3.14;      // Isso vai gerar um erro.
 ### PI = PI + 10;   // Isso também causará um erro.
@@ -21,3 +20,19 @@
 
 &nbsp;
 
+### const protege a referência (o endereço de memória da variável), mas não o conteúdo do objeto/array.
+### const pessoa = { nome: "João", idade: 30 };
+
+&nbsp;
+
+### // ❌ Isso é proibido (reatribuição)
+### pessoa = { nome: "Maria", idade: 25 }; // ERRO!
+
+&nbsp;
+
+### // ✅ Mas isso é permitido (mutação do objeto)
+### pessoa.nome = "Maria";    // Funciona!
+### pessoa.idade = 25;        // Funciona!
+### pessoa.cidade = "São Paulo"; // Também funciona (adicionar propriedade)
+
+&nbsp;
